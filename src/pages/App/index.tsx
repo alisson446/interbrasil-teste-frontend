@@ -12,7 +12,7 @@ const App: React.FC<Props> = (props) => {
 
     useEffect(() => {
         props.configNotificationSystem(notificationRef.current);
-    }, [notificationRef])
+    }, [notificationRef, props])
 
     return (
         <>

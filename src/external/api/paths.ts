@@ -1,4 +1,4 @@
 export default {
-  login: `/Users/login`,
-  logout: `/Users/logout`
+  login: `/Auth/login`,
+  isAuth: `/Auth/isAuth`,
 }
